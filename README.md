@@ -1,27 +1,27 @@
 # Solving RGB Puzzle via State Space Search Algortihms
 
 ## Introduction
-State Space Search is a type of search, in Artificial Intelligence, where the we apply available set of actions to reach from initial state to the goal state.
+State Space Search is a type of search, in Artificial Intelligence, where we apply available set of actions to reach from initial state to the goal state.
 
 There are two main types of State Space Search:
 
-- Uninformed Search
-- Informed Search
+- **Uninformed Search**
+- **Informed Search**
 
 ## Uninformed Search
 In uninformed search, there is no information regarding the location of goal state. 
 This project applies the following uninformed search algorithms:
 
-  1. Breadth First Search
-  2. Depth First Search
-  3. Iterative Deepening Search
+  - **Breadth First Search**
+  - **Depth First Search**
+  - **Iterative Deepening Search**
  
 ## Informed Search
 Informed search, on the other hand, consider some information about the goal state via heuristic function.
 This project applies the following informed search algorithms:
 
-  1. Greedy Best First Search
-  2. A* Search
+  - **Greedy Best First Search**
+  - **A\* Search**
 
 ## RGB Puzzle - Problem
 Red Green Blank (RGB) Problem is similar (not the same) to 15 Puzzle. (https://en.wikipedia.org/wiki/15_puzzle) 
@@ -54,10 +54,10 @@ R R R R R
 ### Allowed Actions/Operators 
 One important thing to know is that 'B' can only be moved/swapped with any of the four (max) neighbors around 'B' as the allowed operators are:
 
-- Up
-- Down
-- Left
-- Right
+- **Up**
+- **Down**
+- **Left**
+- **Right**
 
 ### Output
 The code writes the operators, required in succession, in a file which are needed to solve the given input state and outputs the nodes
