@@ -1,7 +1,6 @@
 /*
  * #Author: Sahir Noor Ali
- * #ID: K132047 
- * #Code: AI Assignment Problem 4 (RGB Puzzle: Apply Iterative Deepening Search to solve RGB)
+ * #Code: Applying Iterative Deepening Search to solve RGB Puzzle
  */
 
 package rgb_puzzle;
