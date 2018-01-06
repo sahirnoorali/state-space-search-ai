@@ -80,6 +80,7 @@ public class RGB_DFS {
                 //Mark it explored
                 explored.put(current.geID(), current.getBoard());
 
+		//Increment the explored counter
                 nodesExplored++;
                 
                 //Operator Times:
